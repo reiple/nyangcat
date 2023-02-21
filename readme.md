@@ -1,3 +1,7 @@
+<div align="right">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/>
+</div>
+
 # 냥캣의 모험
 
 ## 1. 배경
