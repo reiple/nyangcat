@@ -5,6 +5,7 @@ import random
 import time
 
 from cat import Cat
+from nemo import Nemo
 
 # 게임 초기화
 pygame.init()
@@ -34,9 +35,13 @@ pygame.display.set_caption("Dodo Game")
 # 게임 아이템 생성
 item_001 = Cat()
 
+# 장애물 생성
+nemo_001 = Nemo('nemo001')
+
 # 그룹화
 all_groups = pygame.sprite.Group()
 all_groups.add(item_001)
+all_groups.add(nemo_001)
 
 # 적 개체 1초(1000ms)마다 새로 생기는 이벤트 생성
 increaseSpeed = pygame.USEREVENT + 1
